@@ -1522,7 +1522,7 @@ msgstr ""
 #: /cake_session.php:285
 #, fuzzy
 msgid "%s doesn't exist"
-msgstr "La méthode %1$s::%2$s n'existe pas"
+msgstr "%s n'existe pas"
 
 #: /cake_session.php:444
 msgid "Writing session key {%s}: %s"
