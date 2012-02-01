@@ -1,6 +1,6 @@
 # CakePHP-fr locale
 
-**Avancement actuel : 54%**
+**Avancement actuel : 68%**
 
 Ce projet a pour but de centraliser les fichiers de traduction du coeur de CakePHP en langue française.
 
