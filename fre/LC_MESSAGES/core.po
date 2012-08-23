@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: CakePHP\n"
 "POT-Creation-Date: 2011-10-29 10:47+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Pierre Martin <contact@pierre-martin.fr>\n"
+"Last-Translator: Benjamin Chéré <benchere@yahoo.fr>\n"
 "Language-Team: Cakephp-fr.org <contact@cakephp-fr.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -14,18 +14,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==1? 0 : 1);\n"
 
 #: /cake.php:329
-#, fuzzy
 msgid "Error: Class %s could not be loaded."
-msgstr "%s ne peut être chargé"
+msgstr "Erreur : La classe %s ne peut être chargé."
 
 #: /cake.php:381
-#, fuzzy
 msgid "Error: Unknown %1$s command %2$s."
-msgstr "Commande '%s' introuvable"
+msgstr "Erreur : Commande '%s' introuvable."
 
 #: /cake.php:382
 msgid "For usage try `cake %s help`"
-msgstr ""
+msgstr "Pour l'utilisation essayez `cake %s help`"
 
 #: /error.php:80
 #: /view/errors/error404.ctp:23
@@ -164,9 +162,8 @@ msgid "No tree returned."
 msgstr "Aucun arbre retourné."
 
 #: /libs/acl.php:225
-#, fuzzy
 msgid "Path:"
-msgstr "Chemin"
+msgstr "Chemin :"
 
 #: /libs/acl.php:261
 msgid "%s is allowed."
@@ -253,7 +250,7 @@ msgstr "<alias> - Un alias sera attribué au noeud (ou chemin, dans le cas de <p
 
 #: /libs/acl.php:407
 msgid " (or path, in the case of <parent>)"
-msgstr ""
+msgstr "(ou path, dans le cas d'un <parent>)"
 
 #: /libs/acl.php:408
 #, fuzzy
@@ -271,7 +268,7 @@ msgstr "i.e. <groupe>/<sous-groupe>/<parent>."
 
 #: /libs/acl.php:411
 msgid "To add a node at the root level,"
-msgstr ""
+msgstr "Pour ajouter un noeud au niveau racine,"
 
 #: /libs/acl.php:412
 #, fuzzy
@@ -358,7 +355,7 @@ msgstr "La commande view retournera l'arbre des ARO ou ACO."
 
 #: /libs/acl.php:459
 msgid "The optional node parameter allows you to return"
-msgstr ""
+msgstr "Le paramètre optionnel du noeud vous permet de retourner"
 
 #: /libs/acl.php:460
 #, fuzzy
@@ -587,37 +584,32 @@ msgid "%s updated."
 msgstr "%s mis à jour."
 
 #: /libs/shell.php:420
-#, fuzzy
 msgid "Error: %s"
-msgstr "Erreur :"
+msgstr "Erreur : %s"
 
 #: /libs/shell.php:460
 msgid "Creating file %s"
 msgstr "Création du fichier %s"
 
 #: /libs/shell.php:463
-#, fuzzy
 msgid "File `%s` exists, overwrite?"
-msgstr "Le fichier existe, écraser ?"
+msgstr "Le fichier `%s` existe, écraser ?"
 
 #: /libs/shell.php:467
 msgid "Quitting."
 msgstr "Quitter."
 
 #: /libs/shell.php:470
-#, fuzzy
 msgid "Skip `%s`"
-msgstr "Passer"
+msgstr "Passer `%s`"
 
 #: /libs/shell.php:481
-#, fuzzy
 msgid "Wrote `%s`"
-msgstr "Ecrit"
+msgstr "Ecrit `%s`"
 
 #: /libs/shell.php:484
-#, fuzzy
 msgid "Could not write to `%s`."
-msgstr "Erreur ! Impossible d'écrire sur "
+msgstr "Erreur ! Impossible d'écrire sur `%s`."
 
 #: /libs/testsuite.php:152
 #, fuzzy
@@ -626,11 +618,11 @@ msgstr "Le Google group de CakePHP"
 
 #: /libs/testsuite.php:156
 msgid "Sorry, you did not pass any arguments!"
-msgstr ""
+msgstr "Désolé, vous n'avez pas passé d'argument!"
 
 #: /libs/testsuite.php:160
 msgid "Running %s %s %s"
-msgstr ""
+msgstr "En cours %s %s %s"
 
 #: /libs/testsuite.php:169
 #, fuzzy
@@ -639,11 +631,11 @@ msgstr "Gabarit introuvable pour %s"
 
 #: /libs/testsuite.php:223
 msgid "%s is an invalid test category (either \"app\", \"core\" or name of a plugin)"
-msgstr ""
+msgstr "%s est une catégorie test invalide (soit \"app\", \"core\" ou le nom d'un plugin)"
 
 #: /libs/testsuite.php:237
 msgid "%s is invalid. Should be case, group or all"
-msgstr ""
+msgstr "%s est invalide. Cela peut être case, group ou all"
 
 #: /libs/testsuite.php:247
 #, fuzzy
@@ -652,11 +644,11 @@ msgstr "Le format du fichier sélectionné est invalide"
 
 #: /libs/testsuite.php:273
 msgid "You must install Xdebug to use the CakePHP(tm) Code Coverage Analyzation. Download it from http://www.xdebug.org/docs/install"
-msgstr ""
+msgstr "Vous devez installer Xdebugpour utiliser le Code Coverage Analyzation de CakePHP. Téléchargez-le depuis http://www.xdebug.org/docs/install"
 
 #: /libs/testsuite.php:366
 msgid "Sorry, Simpletest could not be found. Download it from http://simpletest.org and install it to your vendors directory."
-msgstr ""
+msgstr "Désolé, Simpletest n'a pas pu être trouvé. Téléchargez-le depuis http://simpletest.org et installez-le dans votre dossier vendors."
 
 #: /libs/tasks/controller.php:77
 msgid "Baking basic crud methods for "
@@ -664,7 +656,7 @@ msgstr ""
 
 #: /libs/tasks/controller.php:82;90
 msgid "Adding %s methods"
-msgstr ""
+msgstr "Ajout des méthodes %s"
 
 #: /libs/tasks/controller.php:134
 #, fuzzy
@@ -710,19 +702,20 @@ msgid "The following controller will be created:"
 msgstr "La(les) table(s) suivante(s) sera(ont) créée(s)."
 
 #: /libs/tasks/controller.php:222
-#, fuzzy
 msgid ""
 "Controller Name:\n"
 "\t%s"
-msgstr "Nom :lang"
+msgstr ""
+"Nom du Contrôlleur:\n"
+"\t%s"
 
 #: /libs/tasks/controller.php:229
 msgid "Helpers:"
-msgstr ""
+msgstr "Assistants :"
 
 #: /libs/tasks/controller.php:230
 msgid "Components:"
-msgstr ""
+msgstr "Composants :"
 
 #: /libs/tasks/controller.php:257
 #, fuzzy
@@ -806,10 +799,13 @@ msgid ""
 "Example: %s\n"
 "[Q]uit [D]one"
 msgstr ""
+"Quel est le chemin complet que vous voulez extraire ?\n"
+"Exemple : %s\n"
+"[Q]uitter [D] fait"
 
 #: /libs/tasks/extract.php:111;133
 msgid "Extract Aborted"
-msgstr ""
+msgstr "Extraction annulé"
 
 #: /libs/tasks/extract.php:120;139
 #, fuzzy
@@ -828,15 +824,15 @@ msgstr ""
 
 #: /libs/tasks/extract.php:149
 msgid "Would you like to merge all domains strings into the default.pot file?"
-msgstr ""
+msgstr "Voulez-vous fusionner tous les domaines dans le fichier default.pot ?"
 
 #: /libs/tasks/extract.php:168
 msgid "Extracting..."
-msgstr ""
+msgstr "Extraction en cours..."
 
 #: /libs/tasks/extract.php:170
 msgid "Paths:"
-msgstr ""
+msgstr "Chemins :"
 
 #: /libs/tasks/extract.php:174
 #, fuzzy
@@ -859,11 +855,11 @@ msgstr "et génère des fichiers .pot avec les traductions."
 
 #: /libs/tasks/extract.php:195
 msgid "By default the .pot file(s) will be place in the locale directory of -app"
-msgstr ""
+msgstr "Par défaut le(s) fichier(s) .pot sera (seront) placé(s) dans le dossier 'locale' de -app"
 
 #: /libs/tasks/extract.php:196
 msgid "By default -app is ROOT/app"
-msgstr ""
+msgstr "Par défaut -app est ROOT/app"
 
 #: /libs/tasks/extract.php:198
 #, fuzzy
@@ -907,9 +903,8 @@ msgid "   cake i18n extract help: Shows this help message."
 msgstr ""
 
 #: /libs/tasks/extract.php:223
-#, fuzzy
 msgid "Processing %s..."
-msgstr "Méthode de traitement"
+msgstr "Traitement de %s..."
 
 #: /libs/tasks/extract.php:406
 msgid "Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
@@ -955,11 +950,11 @@ msgstr ""
 
 #: /libs/tasks/model.php:154
 msgid "Make a selection from the choices above"
-msgstr ""
+msgstr "Faites une séléction parmis les choix ci-dessus"
 
 #: /libs/tasks/model.php:193
 msgid "Table %s does not exist, cannot bake a model without a table."
-msgstr ""
+msgstr "La table %s n'existe pas, vous ne pouvez pas utiliser bake sur un model sans table."
 
 #: /libs/tasks/model.php:202
 #, fuzzy
@@ -980,23 +975,20 @@ msgid "The following Model will be created:"
 msgstr "Le Modèle suivant sera créé : "
 
 #: /libs/tasks/model.php:221
-#, fuzzy
 msgid "DB Config:  %s"
-msgstr "Configuration de base de données à utiliser"
+msgstr "Configuration de base de données à utiliser : %s"
 
 #: /libs/tasks/model.php:224
-#, fuzzy
 msgid "DB Table:   %s"
-msgstr "Table manquante dans la base de données"
+msgstr "Table manquante dans la base de données : %s"
 
 #: /libs/tasks/model.php:227
-#, fuzzy
 msgid "Primary Key: %s"
-msgstr "Clé publique"
+msgstr "Clé primaire : %s"
 
 #: /libs/tasks/model.php:230
 msgid "Validation: %s"
-msgstr ""
+msgstr "Validation : %s"
 
 #: /libs/tasks/model.php:233
 #, fuzzy
@@ -1012,10 +1004,12 @@ msgid ""
 "A displayField could not be automatically detected\n"
 "would you like to choose one?"
 msgstr ""
+"Un displayField ne peut pas être détecté automatiquement\n"
+"Voulez-vous en choisir une?"
 
 #: /libs/tasks/model.php:304
 msgid "Choose a field from the options above:"
-msgstr ""
+msgstr "Choisissez un champs parmis les options ci-dessus :"
 
 #: /libs/tasks/model.php:376
 #, fuzzy
@@ -1023,9 +1017,8 @@ msgid "Field: %s"
 msgstr "Erreur dans le champ %s"
 
 #: /libs/tasks/model.php:377
-#, fuzzy
 msgid "Type: %s"
-msgstr "Type"
+msgstr "Type : %s"
 
 #: /libs/tasks/model.php:379
 #, fuzzy
@@ -1162,15 +1155,13 @@ msgid ""
 msgstr "Le nom du modèle que vous avez soumis était vide ou le numéro que vous avez sélectionné n'était pas une option valide. Merci de réessayer."
 
 #: /libs/tasks/plugin.php:71
-#, fuzzy
 msgid "Plugin: %s"
-msgstr "Plugin de contact"
+msgstr "Plugin : %s"
 
 #: /libs/tasks/plugin.php:72
 #: /libs/tasks/test.php:95
-#, fuzzy
 msgid "Path: %s"
-msgstr "Chemin"
+msgstr "Chemin : %s"
 
 #: /libs/tasks/plugin.php:74
 #, fuzzy
@@ -1194,14 +1185,12 @@ msgid "An error occured trying to bake: %s in %s"
 msgstr "Une erreur est survenue en essayant de faire cuire : %s dans %s"
 
 #: /libs/tasks/plugin.php:130
-#, fuzzy
 msgid "Plugin Name: %s"
-msgstr "Nom :lang"
+msgstr "Nom du Plugin : %s"
 
 #: /libs/tasks/plugin.php:131
-#, fuzzy
 msgid "Plugin Directory: %s"
-msgstr "Dossier du catalogue"
+msgstr "Dossier Plugin : %s"
 
 #: /libs/tasks/plugin.php:137
 #: /libs/tasks/project.php:155
@@ -1294,9 +1283,8 @@ msgid "Directory path does not exist please choose another:"
 msgstr "Le chemin de répertoire n'existe pas, merci d'en choisir un autre :"
 
 #: /libs/tasks/project.php:147
-#, fuzzy
 msgid "Bake Project"
-msgstr "Cuisson Totale terminée"
+msgstr "Projet Bake"
 
 #: /libs/tasks/project.php:148
 #, fuzzy
@@ -1304,9 +1292,8 @@ msgid "Skel Directory: "
 msgstr "Dossier du catalogue"
 
 #: /libs/tasks/project.php:149
-#, fuzzy
 msgid "Will be copied to: "
-msgstr "%s NON copié vers %s"
+msgstr "Sera copié vers :"
 
 #: /libs/tasks/project.php:166
 #, fuzzy
@@ -1455,19 +1442,16 @@ msgid "The following view will be created:"
 msgstr "La(les) table(s) suivante(s) sera(ont) créée(s)."
 
 #: /libs/tasks/view.php:344
-#, fuzzy
 msgid "Controller Name: %s"
-msgstr "Nom :lang"
+msgstr "Nom du contrôlleur : %s"
 
 #: /libs/tasks/view.php:345
-#, fuzzy
 msgid "Action Name:     %s"
-msgstr "Nom :lang"
+msgstr "Nom de l'action :     %s"
 
 #: /libs/tasks/view.php:346
-#, fuzzy
 msgid "Path:            %s"
-msgstr "Chemin"
+msgstr "Chemin :           %s"
 
 #: /templates/skel/views/layouts/default.ctp:25
 #: /view/layouts/default.ctp:25
@@ -1492,14 +1476,12 @@ msgid "Method read() not implemented in %s"
 msgstr "Méthode read() non implémentée dans %s"
 
 #: /cache.php:645
-#, fuzzy
 msgid "Method increment() not implemented in %s"
-msgstr "Méthode write() non implémentée dans %s"
+msgstr "Méthode increment() non implémentée dans %s"
 
 #: /cache.php:656
-#, fuzzy
 msgid "Method decrement() not implemented in %s"
-msgstr "Méthode write() non implémentée dans %s"
+msgstr "Méthode decrement() non implémentée dans %s"
 
 #: /cake_log.php:101
 #, fuzzy
@@ -1517,7 +1499,7 @@ msgstr ""
 
 #: /cake_session.php:280
 msgid "Deleting session key {%s}"
-msgstr ""
+msgstr "Suppression de la clé de session {%s}"
 
 #: /cake_session.php:285
 #, fuzzy
@@ -1526,7 +1508,7 @@ msgstr "%s n'existe pas"
 
 #: /cake_session.php:444
 msgid "Writing session key {%s}: %s"
-msgstr ""
+msgstr "Ecriture de la clé de session {%s}: %s"
 
 #: /cake_session.php:506
 msgid "You must set the all Configure::write('Session.*') in core.php to use database storage"
@@ -1577,7 +1559,7 @@ msgstr "Introuvable"
 
 #: /error.php:185
 msgid "An Internal Error Has Occurred"
-msgstr ""
+msgstr "Une erreur interne s'est produite"
 
 #: /error.php:204
 #: /view/errors/missing_controller.ctp:20
@@ -1749,7 +1731,7 @@ msgstr ""
 
 #: /xml.php:408
 msgid "Cannot append a node to itself."
-msgstr ""
+msgstr "On ne peut pas ajouter un noeud à lui-même"
 
 #: /xml.php:906
 #, fuzzy
@@ -1970,7 +1952,7 @@ msgstr ""
 
 #: /model/datasources/dbo_source.php:688
 msgid "Query:"
-msgstr ""
+msgstr "Requête:"
 
 #: /model/datasources/dbo_source.php:929
 #: /model/datasources/dbo/dbo_oracle.php:997
@@ -1986,17 +1968,16 @@ msgstr "Schéma d'objet invalide"
 #: /model/datasources/dbo_source.php:2734
 #: /model/datasources/dbo/dbo_sqlite.php:493
 msgid "Column name or type not defined in schema"
-msgstr ""
+msgstr "Le nom ou le type de la colonne n'est pas défini dans le schéma"
 
 #: /model/datasources/dbo_source.php:2739
 #: /model/datasources/dbo/dbo_sqlite.php:498
-#, fuzzy
 msgid "Column type %s does not exist"
-msgstr "Cet élément n'existe pas"
+msgstr "Le type %s n'existe pas"
 
 #: /model/datasources/dbo/dbo_mssql.php:121
 msgid "PHP SQL Server interface is not installed, cannot continue. For troubleshooting information, see http://php.net/mssql/"
-msgstr ""
+msgstr "L'interface PHP SQL Serveur n'est pas installée, ne peut pas continuer. Pour plus d'information sur le sujet, voir http://php.net/mssql/"
 
 #: /model/datasources/dbo/dbo_oracle.php:586
 msgid "Must specify table to operate on constraints"
@@ -2041,7 +2022,7 @@ msgstr "Erreur"
 
 #: /view/errors/error500.ctp:23
 msgid "An Internal Error Has Occurred."
-msgstr ""
+msgstr "Une erreur interne s'est produite."
 
 #: /view/errors/missing_action.ctp:20
 msgid "Missing Method in %s"
@@ -2264,7 +2245,7 @@ msgstr "Décembre"
 
 #: /view/helpers/js.php:154
 msgid "JsHelper:: Missing Method %s is undefined"
-msgstr ""
+msgstr "JsHelper:: Méthode manquante %s n'est pas défini"
 
 #: /view/helpers/js.php:795
 #, fuzzy
@@ -2323,37 +2304,37 @@ msgstr "La méthode %1$s::%2$s n'existe pas"
 
 #: /view/helpers/mootools_engine.php:310
 msgid "MootoolsEngine::drop() requires a \"drag\" option to properly function"
-msgstr ""
+msgstr "MootoolsEngine::drop() a besoin de l'option \"drag\" pour fonctionner correctement"
 
 #: /view/helpers/number.php:93
 msgid "%d KB"
-msgstr ""
+msgstr "%d Ko"
 
 #: /view/helpers/number.php:95
 msgid "%.2f MB"
-msgstr ""
+msgstr "%.2f Mo"
 
 #: /view/helpers/number.php:97
 msgid "%.2f GB"
-msgstr ""
+msgstr "%.2f Go"
 
 #: /view/helpers/number.php:99
 msgid "%.2f TB"
-msgstr ""
+msgstr "%.2f To"
 
 #: /view/helpers/number.php:91
 msgid "%d Byte"
 msgid_plural "%d Bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Octet"
+msgstr[1] "%d Octets"
 
 #: /view/helpers/paginator.php:99
 msgid "%s does not implement a link() method, it is incompatible with PaginatorHelper"
-msgstr ""
+msgstr "%s n'a pas de méthode link(), c'est incompatible avec l'assistant Paginator (PaginatorHelper)"
 
 #: /view/helpers/paginator.php:534
 msgid " of "
-msgstr ""
+msgstr " de "
 
 #: /view/helpers/session.php:184
 msgid "You can not write to a Session from the view"
@@ -2380,54 +2361,48 @@ msgid "days"
 msgstr "jours"
 
 #: /view/helpers/time.php:603
-#, fuzzy
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "année"
-msgstr[1] "années"
+msgstr[0] "%d année"
+msgstr[1] "%d années"
 
 #: /view/helpers/time.php:604;609
-#, fuzzy
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "mois"
-msgstr[1] "mois"
+msgstr[0] "%d mois"
+msgstr[1] "%d mois"
 
 #: /view/helpers/time.php:605;610;614
-#, fuzzy
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "semaine"
-msgstr[1] "semaines"
+msgstr[0] "%d semaine"
+msgstr[1] "%d semaines"
 
 #: /view/helpers/time.php:606;611;615;618
-#, fuzzy
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "jour"
-msgstr[1] ""
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
 
 #: /view/helpers/time.php:619;622
-#, fuzzy
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "heure"
-msgstr[1] "heures"
+msgstr[0] "%d heure"
+msgstr[1] "%d heures"
 
 #: /view/helpers/time.php:623;626
-#, fuzzy
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "minute"
-msgstr[1] "minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutes"
 
 #: /view/helpers/time.php:629
-#, fuzzy
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "seconde"
-msgstr[1] "secondes"
+msgstr[0] "%d seconde"
+msgstr[1] "%d secondes"
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:61
 msgid "abday"
 msgstr ""
@@ -2437,31 +2412,36 @@ msgstr ""
 msgid "day"
 msgstr "jour"
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:73
 msgid "d_t_fmt"
 msgstr ""
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:95
 msgid "abmon"
 msgstr ""
 
 #: /view/helpers/time.php:101
-#, fuzzy
 msgid "mon"
 msgstr "mois"
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:112
 msgid "am_pm"
 msgstr ""
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:119
 msgid "t_fmt_ampm"
 msgstr ""
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:133
 msgid "d_fmt"
 msgstr ""
 
+# Utilisé dans Time Helper
 #: /view/helpers/time.php:139
 msgid "t_fmt"
 msgstr ""
@@ -2476,15 +2456,15 @@ msgstr ""
 
 #: /view/pages/home.ctp:34
 msgid "URL rewriting is not properly configured on your server. "
-msgstr ""
+msgstr "L'URL rewriting n'est pas correctement configuré sur votre serveur. "
 
 #: /view/pages/home.ctp:38
 msgid "Help me configure it"
-msgstr ""
+msgstr "Aidez-moi à le configurer"
 
 #: /view/pages/home.ctp:43
 msgid "I don't / can't use URL rewriting"
-msgstr ""
+msgstr "Je ne peux pas utiliser l'URL rewriting"
 
 #: /view/pages/home.ctp:52
 msgid "Your tmp directory is writable."
@@ -2554,9 +2534,8 @@ msgid "New"
 msgstr "Nouveau"
 
 #: /view/pages/home.ctp:137
-#, fuzzy
 msgid "CakePHP 1.3 Docs"
-msgstr "Tout sur CakePHP"
+msgstr "Doc. CakePHP 1.3"
 
 #: /view/pages/home.ctp:146
 msgid "The 15 min Blog Tutorial"
@@ -2591,9 +2570,8 @@ msgid "The Rapid Development Framework"
 msgstr "Le framework de développement rapide"
 
 #: /view/pages/home.ctp:166
-#, fuzzy
 msgid "CakePHP Documentation"
-msgstr "Tout sur CakePHP"
+msgstr "Documentation CakePHP"
 
 #: /view/pages/home.ctp:167
 msgid "Your Rapid Development Cookbook"
@@ -2654,7 +2632,7 @@ msgstr "Tout sur CakePHP"
 
 #: /view/pages/home.ctp:181
 msgid "CakePHP Tickets, Wiki pages, Roadmap"
-msgstr ""
+msgstr "Billets CakePHP, pages Wiki, feuille de route"
 
 #: /view/pages/home.ctp:182
 msgid "CakeForge"
